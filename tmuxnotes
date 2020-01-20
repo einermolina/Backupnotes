@@ -1,0 +1,25 @@
+Tmux
+pannels 
+Ctrl+b,% will split terminal in the middle
+Ctrl+b,"  splits termincal horizontal 
+
+ctrl+b w will show the open/active bash 
+ctrl+b , will rename bash 
+ctrl+b x will exit bash or type exit
+
+ctrl+b h,j,k,l to resize pannel
+ctrl+b z zooms in working termining
+
+ctrl + h,j,k,l move around different pannels insd bash
+
+$tmux {list-sessions} to see whats attached 
+    tmux new -s  <insertname> or $ls tmux ls
+ctrl+b, d to deattached 
+
+
+to attach *name your session!
+
+$tmux attached -t (name of what you want to resume)
+
+
+

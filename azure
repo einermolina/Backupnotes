@@ -1,0 +1,25 @@
+Azure900
+
+Q-Question
+A-Answer 
+S-Statemet
+M-mustlearn
+#-comment
+*-important 
+^- relevent (additional)
+
+Q doeas azure limit the access to subset of serive - 
+    A- no, They give you credit and 30 day trial to play aroudn in azure
+
+S- Azure advisor and its actions
+    # Azure adivsor is *High avialiblity advisor helping you advice and not limited to secirty, perfocmance, cost and operational Ecellence . ** helps azure security go up
+
+Azure support plan
+Basic( Customer service 24-7 to billing,sub,doc,forums
+    Dev(^+Tec support only email )
+      Standard(^ email+phone and 8busines hrs) (sev C 8hrs sev b 2 hrs sev A 1 hrs) sev = severity 
+       Pro direct (^+ sev goes does to 4 hrs Sev c) sev b 2hrs  sev A)
+             Premier (^)
+
+Azure provides its own domain controllers * watch out for saas quesitons 
+ 

@@ -1,0 +1,11 @@
+Vim notes
+:wq save files   shift zz or ESC : wq
+dd  to delete a whole line press d
+u  to recover deleted line use u 
+x  press x to delete one character
+r  use r to replace a character (wright over keys)
+i  to insert characters 
+
+grep can be used to find words $grep <keyword> <filename>
+/ is used to search inside the file /
+make sure you leave --INSERT-- before using this characters

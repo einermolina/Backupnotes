@@ -1,0 +1,45 @@
+questions 
+what is the difference between storageV1 and storageV2
+
+vitual networt setting 
+
+name should be unique 
+address space - decide how much ip addresses are needed . they are configured CIDR Block.
+azure is using 5 of your ip addresses
+
+location is in one region but you can have it in multiple region
+
+DDos protection (like what they do in xbox to make someone lag)
+basic, standard also protects and has a learning algorithm on its dedicated server 
+
+subnets (split the network) every network is conjoined together as default
+
+virtual network -
+
+-|10.0.0/23 -> #the 23 makes 512 networks# 10.0.0.-10.0.1.255
+|but you can split it by having subnets each subnet made takes up 5 azure reserved addresses 
+|10
+|
+-----subnet 1 -address space
+|          10.0.0.0/24 -> 10.0.0.0-10.0.0.255 (251 =256-5)
+|
+----- subnet 2 AS
+    10.0.1.0/24 -> 10.0.1.0-10.0.255.255 (251=256-5)
+    can control flow of data  using subnets 
+
+provate ip addresses are set up with dinamic or static ip.. Dynamic gives you a new ip evertime you access the Vm
+static ip we can set a spacific ip adress (more popular used because it makes it easier to comunicate to other private IP ) 
+
+DNS makes it available for a MV hostname to communicate to the private adress .  (hostname is easire to use instead ip address) 
+
+Public ip -- 
+
+
+
+application security group (ASG)
+    creat application securty group 
+        Eg DB server asg, Web-server ASG
+    Create network securty group
+    creat virtual machines  
+    associate Vms networks interface to an ASG  
+

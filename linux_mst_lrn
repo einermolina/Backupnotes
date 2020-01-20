@@ -1,0 +1,31 @@
+things i need to learn
+
+how to admin file permision 
+
+When administering files or giving permission 
+the first thing you want to do is to identify the type of files 
+Use the following commands 
+
+file <insert file name>
+ll # is short for ls -ls
+
+
+ll will bring out comand will bring out the list of files 
+
+exp
+drwxr-xr-x 3 genos genos 4096 nov 6 22:05
+or           user  group
+-rw-r--r--
+
+the first space will determin what file it is .
+d is directory while - (the minus) is a file folder 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cmd line example
+
+$ls -ls <filename>
+drwx-wxrwx. 2 <user> <group> <number> <date> <time> <filename>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+how to recover a text file using vim
+vim -r <textfile> 
+make sure you delete msm file.
+
