@@ -1,0 +1,60 @@
+cmnds known
+pwd # lets you know what directory your at (files/like/this/you/) $pwd 
+ls # list of files inside the files $ls
+ls - # the negative means option ls -
+ll # is the abbreviation of $ls -ls
+cd # to enter a direcotory $cd 
+cd .. # to go back a directory $cd ..
+file #see what type of file it is $ file <filename>
+~ # home 
+~~ # takes you to root $cd ~~
+sudo # make the super user do thing that only he has access to
+su - # takes you to root $su - (if this fail do $sudo su)
+*root # to exit root type $exit
+.. #  back $cd ..
+mv # moves files $mv <file.type> <dif_direct # moved file.type to dif_direct
+mv # rename files $mv <filename> <filenamechangedto>
+rm #remove file $rm <filename> 
+mkdir #makes directory $mkdir <filename>
+rmdir #removes  directory $rmdir <filename>
+ping #ping to see if we got internet $ping google
+man # manuel $man <command>
+cp # copy file $cp <location/location/filename> 
+cp . # copy files in current directory $cp <location/location/filename> .   
+echo # change output of command $echo 'what i want to change file to' > filename.txt
+>> # add lines at the end of filetext or redirect ouput. also creates file if doesnt exist                                $echo 'print what i want here' >> (filename or newfilename)
+------------------------------------------------
+Filter/ Text processing 
+cut # cuts out words $cut -c1 <filename.txt>     or $cut -c1-3 <filename.txt.> to get more letters 
+awk # prints first set of words in this case names $awk '{print $1}' <seinfld_characters> to view second colom use2         instead of 1
+grep # is used to fine a specific name or text $grep <molina> <file.txt>
+sort # sorts text files abc order
+uniq # removes duplicates (good with other commands like cat , sort,awk) $awk '{print $1}' | uniq    or                 $cat <filename> | uniq                (make sure you use sort first )
+wc # word count $sort <filename>   # output: 12 21 153 <filename> 12 = lines , 21 = wors , 153 characters
+__________________________________________
+chmod/chown/chgrp # changes who can access or temper with the files $chown <option> <filename>
+$chown <user/root> <filename>  
+
+chmod # change moderation of files. u(user)g(group)o(other)a(all)[+-=]r(read)w(wright)x(execute) $chmod u+w <flname>
+chown # changes permishion of  ownership of files NEEDS ROOT  $chown root <filename> $chown root <filename>
+chgrp # changes permission of  group ownership on files NEEDS ROOT $chgrp  
+use $man on each cmd to see how to change things
+___________________________________________
+touch # $touch will make these into files ( made files names files into these make & will)
+echo # returns what i say but adding  > will place text inside file. $echo "put text inside file" > <file>
+    $echo "This is to add a text into a file" > [filename] if you only use one > it will overide text in file
+        $echo "this is to ADD into the file" >> [filename] 
+___________________________________________
+Text processors commands 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+They have multiply of them ubuntu mint phadora etc..
+they are harder to hack
+The command line does get some used to getting used to .
+i just learned how to write/make a text using the vi command
+from that i used the vi command to save file :wq 
+also learned to move files
+make/remove directorys 
+make a file readable writable ~executable using chmod 
+making a file root using chown(owner) chgrp (group) # making the file harder to mess with 
+
