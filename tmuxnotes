@@ -2,6 +2,7 @@ Tmux
 pannels 
 Ctrl+b,% will split terminal in the middle
 Ctrl+b,"  splits termincal horizontal 
+u, revert (make sure not in insert mode)
 
 ctrl+b w will show the open/active bash 
 ctrl+b , will rename bash 
